@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevDetective - CodeHelp</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="./assets/sites.webmanifest">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- navbar -->
+        <div class="navbar">
+            <div class="nav-title">
+                <h2>DevDetective</h2>
+            </div>
+
+            <div class="nav-button">
+                <h3 class="dark-mode">🧑‍💻</h3>
+                <!-- <img class="dark-mode" src="./assets/images/moon-icon.svg" alt=""> -->
+            </div>
+        </div>
+
+        <!-- input search  -->
+        <div class="input-form">
+            <div>
+                <img class="formImg" src="" alt="">
+                <input type="text" id="input" placeholder="Enter a GitHub username...">
+            </div>
+            <p class="notfound">Profile not found..!!</p>
+            <button class="btn">Search</button>
+        </div>
+
+        <!-- content section -->
+        <div class="content">
+            <div class="col1">
+                <img id="avatar" src="" alt="">
+            </div>
+
+            <div class="col2">
+
+                <div id="div1">
+                    <h2 class="nameTitle"></h2>
+                    <p class="date"></p>
+                </div>
+
+                <div id="div2">
+                    <a href="" class="username"></a>
+                </div>
+
+                <div id="div3">
+                    <p class="tagline"></p>
+                </div>
+
+                <div id="div4">
+                    <div class="card">
+                        <div class="repos">
+                            <h2>Repos</h2>
+                            <p id="repos"></p>
+                        </div>
+
+                        <div class="followers">
+                            <h2>Followers</h2>
+                            <p id="follower"></p>
+                        </div>
+
+                        <div class="following">
+                            <h2>Following</h2>
+                            <p id="following"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="div5">
+                    <div class="location bottom">
+                        <img src="./assets/images/location-icon.svg" alt="">
+                        <p id="location"></p>
+                    </div>
+
+                    <div class="url bottom">
+                        <img src="./assets//images/website-icon.svg" alt="">
+                        <a href="#" target="_blank" id="website">
+                            <p id="weburl"></p>
+                        </a>
+                    </div>
+
+                    <div class="twitter bottom">
+                        <img src="./assets//images/twitter-icon.svg" alt="">
+                        <p id="twitter"></p>
+                    </div>
+
+                    <div class="compnay bottom">
+                        <img src="./assets//images/company-icon.svg" alt="">
+                        <p id="company"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
